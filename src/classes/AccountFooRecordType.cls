@@ -19,7 +19,7 @@ public class AccountFooRecordType {
 ****/  
 /********Eager Initialization*************/  
 private static final AccountFooRecordType instance = new AccountFooRecordType();
-    public String id {get;private set;}//Test 2
+    public String id {get;private set;}//Test 4
     private AccountFooRecordType(){
         id = Account.sObjectType.getDescribe()
             .getRecordTypeInfosByName().get('Foo').getRecordTypeId();
