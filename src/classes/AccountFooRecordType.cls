@@ -16,7 +16,7 @@ public class AccountFooRecordType {
         if(instance == null) instance = new AccountFooRecordType();
         return instance;
     } 
-*/       
+ttt*/  
 private static final AccountFooRecordType instance = new AccountFooRecordType();
     public String id {get;private set;}//Test 4
     private AccountFooRecordType(){
