@@ -17,7 +17,6 @@ public class AccountFooRecordType {
         return instance;
     } 
 */    
-/********Eager Initialization*************/
 private static final AccountFooRecordType instance = new AccountFooRecordType();
     public String id {get;private set;}//Test 4
     private AccountFooRecordType(){
@@ -27,5 +26,6 @@ private static final AccountFooRecordType instance = new AccountFooRecordType();
     public static AccountFooRecordType getInstance(){
         // eager load of the class
         return instance;
-    }  
+    } 
+     
 }
