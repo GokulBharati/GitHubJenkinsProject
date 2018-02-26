@@ -15,8 +15,7 @@ public class AccountFooRecordType {
         // lazy load the record type - only initialize if it doesn't already exist
         if(instance == null) instance = new AccountFooRecordType();
         return instance;
-    } 
-*/    
+    }    
 private static final AccountFooRecordType instance = new AccountFooRecordType();
     public String id {get;private set;}//Test 4
     private AccountFooRecordType(){
@@ -27,5 +26,5 @@ private static final AccountFooRecordType instance = new AccountFooRecordType();
         // eager load of the class
         return instance;
     } 
-     
+ */    
 }
