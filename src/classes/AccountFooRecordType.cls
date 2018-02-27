@@ -2,7 +2,7 @@
 public class AccountFooRecordType {
     // private static variable referencing the class
     private static AccountFooRecordType instance = null;
-    public String id {get;private set;} // the id of the record type
+    public String id {get;private set;} // the id of the reco
     private AccountFooRecordType(){
         id = Account.sObjectType.getDescribe()
             .getRecordTypeInfosByName().get('Foo').getRecordTypeId();
