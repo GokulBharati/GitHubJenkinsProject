@@ -1,5 +1,5 @@
 <apex:page standardController="account" tabStyle="Account" > 
-   <test> 
+   <test></test> 
     <div style="height: 200px" class="bodyDiv" onclick="resizeFrame();">
         <c:AccountHierarchyTree currentId="{!Account.id}" />
     </div>
